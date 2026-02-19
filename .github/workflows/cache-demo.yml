@@ -1,3 +1,4 @@
+
 name: Cache Demo
 on: [push]
 jobs:
@@ -17,4 +18,4 @@ jobs:
         path: ~/.npm
         key: cache-dafacc3
     - name: Echo cache result
-      run: echo cache=false
+      run: echo done
